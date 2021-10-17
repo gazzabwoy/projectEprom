@@ -4,9 +4,12 @@ College project
 
 Computing Project Scenario:
 
-Promote an EventYou have recently been approached by a company that wants you to promote their gaming event.  
-The event is to take place the 5thand 6th March2022.They will be hosting multiple games competitionsover the course of the event in different areas of the arena. 
+Promote an Event
+You have recently been approached by a company that wants you to promote their gaming event.  
+The event is to take place the 5thand 6th March2022.
+They will be hosting multiple games competitionsover the course of the event in different areas of the arena. 
 They would like you to promote their event with a website, video, audio and social media. 
+
 The main website should include:-
 
 •The event location and contact details 
