@@ -48,7 +48,8 @@ audio {
 .footer {
   position: absolute;
   bottom: 0;
+  left: 0;
   width: 100%;
-  background-color: dodgerblue;
-  color: white;
+  background-image: linear-gradient(dodgerblue, rgb(206, 27, 27));
+  color: white; 
 }
