@@ -1,0 +1,55 @@
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-position: auto;
+  background-image: url("../images/pripyat.jpg");
+}
+.banner {
+  height: 250px;
+  width: 100%;
+}
+.nav {
+  position: relative;
+  overflow: hidden;
+}
+.nav a {
+  position: relative;
+  background-color: dodgerblue;
+  border-radius: 50px;
+  display: inline-block;
+  text-align: center;
+  font-size: 18;
+  color: white;
+  padding: 10px 20px;
+  margin: 0px 10px;
+}
+
+.nav a:hover {
+  background-color: LightBlue;
+  color: white;
+}
+.nav a.active {
+  background-color: DarkBlue;
+  color: white;
+}
+
+audio {
+  width: 25%;
+  height: 10%;
+  position: absolute;
+  bottom: 100px;
+  left: 37%;
+  padding: 2px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-image: linear-gradient(dodgerblue, rgb(206, 27, 27));
+  color: white; 
+}
