@@ -4,68 +4,78 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
-  background-position: auto;
+  width: 100vw;
+  height: 100vh;
   background-image: url("../images/gta.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .banner {
-  height: 250px;
-  width: 100%;
+  height: 25vh;
+  width: 100vw;
 }
-.nav {
-  position: relative;
+#nav {
+  float: none;
+  position: fixed;
+  width: 100%;
+  top: 30vh;
+  left: 50vw;
+  transform: translate(-46vw, -2vh);
   overflow: hidden;
 }
-.nav a {
-  position: relative;
-  background-color: dodgerblue;
-  border-radius: 50px;
+#nav a {
   display: inline-block;
   text-align: center;
-  font-size: 18;
+  border-radius: 1vw 3vh;
+  padding: 1vw 1vw;
+  width: 10%;
+  background-image: linear-gradient(to bottom right, rgb(64,224,208),  rgb(30,144,255));
   color: white;
-  padding: 10px 20px;
-  margin: 0px 10px;
+  border: solid 1px white;
+  align-items: center;
+  font-size: 2vw;
+  text-decoration: none;
+  
 }
 
-.nav a:hover {
-  background-color: LightBlue;
-  color: white;
+#nav a:hover {
+  background-image: linear-gradient(to top , white, blue);
 }
-.nav a.active {
-  background-color: DarkBlue;
-  color: white;
+#nav a.active {
+  background-image: linear-gradient(to top left , rgb(30,144,255), blue);
 }
+
 
 /*position audio player */ 
 
 .music {
   display: inline-block;
   position: absolute;
-  right: 0vw;
-  bottom: 5vh;
+  right: 1vw;
+  bottom: 7.5vh;
 }
+
 /* audio buttons */
 #audioButton1 {
 background-image: url("../assets/buttons/play.png");
-background-size: 100%;
+background-size: cover ;
 
 background-repeat: no-repeat;
 border-radius: 50%;
 opacity:100%;
-width:5vw;
-height:5vw;	
+width: 5vw;
+height: 10vh;	
 }
 #audioButton2 {
 background-image: url("../assets/buttons/pause.png");	
-background-size: 100%;
+background-size: cover;
 
 background-repeat: no-repeat;
 border-radius: 50%;
 opacity:100%;
-width:5vw;
-height:5vw;	
+width: 5vw;
+height: 10vh;	
 }
-
 .footer {
   position: absolute;
   bottom: 0;
