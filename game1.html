@@ -1,18 +1,22 @@
-<!DOCTYPE html>
-<html>	
+<!DOCTYPE html5>
+<!-- all coding done by gazzabwoy so far -->
+<html lang="en"><!--start of html code-->	
 	
-	<head>
+	<head><!-- start of head -->
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="author" content="Eprom">
 		<meta name="description" content="College Project">
 		<link rel="stylesheet" href = "css/a1style.css">
 		<img class ="banner" src = "images/banner.png" alt="Site Banner">
-		<title>Home</title>		
-	</head>
-	<body>
-	<div class="background-image: url('images/pripyat.jpg')" alt ="pripyat ferris wheel"; !important></div>
-
+		<title>Call of Duty</title>	
+		
+	</head><!-- end of head -->
+	
+	<body><!-- start of body -->
+	
+        <!-- start of nav -->
+	
 		<nav class="nav">
 			<center>
 				<a href ="index.html" >Home</a>
@@ -23,20 +27,41 @@
 				<a  href="contact.html">Bookings</a> 
             </center>				
 		</nav>
-			
 		
-		<input type="image" src="assets/buttons/play.png" name="Play" alt="play button" height="38" width="115" autofocus>
-		<input type="image" src="assets/buttons/pause.png" name="Pause" alt="pause button" height="38" width ="115" autofocus>
-		<input type="image" src="assets/buttons/next.png" name="Next" alt="Next button" height="38" width ="115" autofocus>
+	    <!-- end of nav -->		
+		
+		<main><!-- start of main content -->
 		
 		
-		<audio controls autoplay>
-        <source src="audio/cod4.mp3" type="audio/mp3" autoplay> 
-        Your browser does not support the audio element.
-        </audio> 		
 		
-	</body> 		
-	<footer class="footer">
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		</main><!-- end of main content -->
+	
+		<!-- start of audio -->
+		
+		<div class="music">
+        <audio preload="meta" loop="true"></audio>  
+		<script src="js/cod4.js"></script>
+		   <button id="audioButton1" onclick="audioPlay()"></button>
+           <button id="audioButton2" onclick="audioPause()"></button>  
+		</div>
+	
+	    <!-- end of audio -->
+		
+	</body><!-- end of body -->		
+	<footer class="footer"><!-- start of footer -->
+	
          <center><p>&copy; Gazzabwoy  <script type="text/javascript">document.write( new Date().getFullYear() );</script></center>
-	</footer>
-</html>
+	
+	</footer><!--end of footer -->
+</html><!-- end of html -->
