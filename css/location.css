@@ -45,6 +45,51 @@ body {
   background-image: linear-gradient(to top left , rgb(30,144,255), blue);
 }
 
+.map {
+   position:fixed;
+   top:41vh;
+   left:2vw;
+   
+}
+#googlemaps {
+	
+	height:50vh;
+	width: 50vw;
+	border: 2px solid;
+    color: white;
+    border-radius:8px;
+}
+
+#sec {
+	
+   position:fixed;
+   top:41vh;
+   right:2vw;
+   height:50vh;
+   width: 44vw;
+   border: 2px solid;
+   color: white;
+   border-radius:8px;
+	
+}
+#seclink {
+position: fixed;
+right: 16vw;
+top: 56vh;	
+background-image: linear-gradient(to bottom right, rgb(64,224,208),  rgb(30,144,255));
+background-size: cover ;
+background-repeat: no-repeat;
+color: white;
+font-size: 1vw;
+border-radius: 8px;
+opacity:100%;
+width: 15vw;
+height: 5vh;	
+}	
+	
+	
+
+
 /*position audio player */ 
 
 .music {
