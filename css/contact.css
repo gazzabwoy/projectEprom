@@ -45,6 +45,126 @@ body {
   background-image: linear-gradient(to top left , rgb(30,144,255), blue);
 }
 
+#bookingform { 
+
+  position: fixed;
+  top: 50vh;
+  left: 2vw;
+  padding: 2px;
+  width: 30vw;
+  height: 40vh;
+  border-radius: 8px;
+  background-image: url("../images/text.jpg");
+  cursor: pointer;
+}
+#subject {
+	 height:45vh;
+	 
+}
+#button {
+	display :grid;
+	position: fixed;
+	height: 8vh;
+	width: 8vw;
+	top: 84vh;
+	left: 24vw;
+	border-radius: 8px;
+}   
+#reset {
+	display :grid;
+	position: fixed;
+	height: 8vh;
+	width: 8vw;
+	top: 75vh;
+	left: 24vw;
+	border-radius: 8px;
+}   
+
+#fname { 
+
+background-color:whitesmoke;
+width: 100%;
+}
+#email { 
+
+background-color:whitesmoke;
+width: 100%;
+}
+input[type=text], select  {
+  color: dodgerblue;
+  background-color: whitesmoke;
+  width: 100%; /* Full width */
+  padding: 1vh; /* Some padding */ 
+  border: 1px solid dodgerblue; /* Purple border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 2px; /* Add a top margin */
+  margin-left: 2px; /* Add a left margin */
+  margin-bottom: 2px; /* Bottom margin */
+  
+}
+input[type=text], textarea {
+  background-color: whitesmoke;
+  color: dodgerblue;
+  width: 70%; /* Full width */
+  padding: 1vh; /* Some padding */ 
+  border: 1px solid dodgerblue; /* Purple border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 2px; /* Add a top margin */
+  margin-left: 2px; /* Add a left margin */
+  margin-bottom: 2px; /* Bottom margin */
+  
+}
+
+input[type=submit] {
+  background-image: linear-gradient(to bottom right, rgb(64,224,208),  rgb(30,144,255));
+  padding: 12px 20px;
+  border: 2px;
+  border-radius: 8px;
+  color: white;
+  
+}
+input[type=submit]:hover {
+  background-image: linear-gradient(to top , white, blue);
+
+}
+input[type=reset] {
+  background-image: linear-gradient(to bottom right, rgb(64,224,208),  rgb(30,144,255));
+  padding: 12px 20px;
+  border: 2px;
+  border-radius: 8px;
+  color: white;
+}
+input[type=reset]:hover {
+  background-image: linear-gradient(to top , white, blue);
+
+}
+
+#intro {
+	color:white;
+	font-style: tahoma;
+	font-size: 3vh;
+	text-shadow: 2px 2px dodgerblue;
+	text-align: center;
+	
+}
+#eventpic {
+	
+	
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 98vw;
+	height: 70vh;
+	left: 1vw;
+	top: 38vh;
+	border: 2px solid;
+	color: white;
+	border-radius: 8px;
+	
+	
+}
 
 /*position audio player */ 
 
@@ -77,11 +197,17 @@ width: 5vw;
 height: 10vh;	
 }
 
-.footer {
+#footer {
+	
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
+  height: 4vh;
   background-image: linear-gradient(dodgerblue, rgb(64,224,208));
+  opacity:50%;
   color: white; 
+  font-size: 2vh;
+  overflow: hidden;
+  
 }

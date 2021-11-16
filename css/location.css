@@ -76,11 +76,17 @@ width: 5vw;
 height: 10vh;	
 }
 
-.footer {
-  position: fixed;
+#footer {
+	
+  position: absolute;
   bottom: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
+  height: 4vh;
   background-image: linear-gradient(dodgerblue, rgb(64,224,208));
+  opacity:50%;
   color: white; 
+  font-size: 2vh;
+  overflow: hidden;
+
 }
