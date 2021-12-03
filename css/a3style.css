@@ -265,7 +265,7 @@ height: 10vh;
 #ytube {
 
   text-decoration: none;
-  padding 2px 2px;
+  padding: 2px 2px;
   background-image: url("../socialmedia/youtube.jpg");
   background-repeat: no-repeat;
   font-size: 5vh;
