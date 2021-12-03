@@ -45,6 +45,27 @@ body {
   background-image: linear-gradient(to top left , rgb(30,144,255), blue);
 }
 
+#inform {
+
+  display: inline;
+  position: fixed;
+  top: 37vh;
+  left: 50vw;
+  transform: translate(-32vw );
+  text-align: center;
+  border-radius: 1vw 3vh;
+  padding: 0vw 0vw;
+  width: 72.5vw;
+  background-image: linear-gradient(to bottom ,  rgb(30,144,255), blue);
+  color: white;
+  border: solid 1px white;
+  align-items: center;
+  font-size: 2vw;
+  text-decoration: none;
+
+
+
+}
 /*position audio player */ 
 
 .music {
