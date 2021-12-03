@@ -81,6 +81,7 @@ body {
   height: 45vh;
   background-image:  linear-gradient(dodgerblue, rgb(64,224,208));
   background-size: cover;
+  overflow: hidden;
  }
 /*position audio player */ 
 
