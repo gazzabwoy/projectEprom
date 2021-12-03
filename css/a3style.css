@@ -74,12 +74,12 @@ body {
   font : tahoma;
   font-size: 4vh;
   color:blanchedalmond;
-  top: 45vh;
+  top: 46vh;
   left: 1vw;
   border: solid 4px;
   border-radius: 8px;
   width : 45vw;
-  height: 45vh;
+  height: 43vh;
   background-image:  linear-gradient(dodgerblue, rgb(64,224,208));
   background-size: cover;
   overflow: hidden;
@@ -177,9 +177,9 @@ height: 10vh;
 #socialmedia  {
 
  
-  position: fixed;
-  width: 100%;
-  top: 43vh;
+  position: absolute;
+  width: 100vw;
+  top: 45vh;
   left: 50vw;
   transform: translate(-46vw, -2vh);
   overflow: hidden;
@@ -187,25 +187,25 @@ height: 10vh;
 
 }
 
-#socialmedia li {
+#socialmedia a {
 
   display: inline-block;
   text-align: center;
-  border-radius: 1vw 3vh;
+  border-radius: 50%;
   padding: 0vw 0vw;
-  width: 10vw;
+  width: 4vw;
   height: 6vh;
   background-image: linear-gradient(to bottom right, rgb(64,224,208),  rgb(30,144,255));
   color: white;
   border: solid 1px white;
   align-items: center;
-  font-size: 2vw;
+  font-size: 1vw;
   text-decoration: none;
   overflow: hidden;
 }
 
 
-#socialmedia li:hover {
+#socialmedia a:hover {
   background-image: linear-gradient(to top , white, blue);
 }
 
@@ -214,9 +214,9 @@ height: 10vh;
   text-decoration: none;
   padding: 2px 2px;
   background-image: url("../socialmedia/facebook.jpg");
-  background-repeat: no-repeat;
   font-size: 5vh;
-  background-size: 4vh;
+  background-size: cover;
+  background-repeat: no-repeat;
   color: whitesmoke;
   overflow: hidden;
 
@@ -230,8 +230,9 @@ height: 10vh;
   background-image: url("../socialmedia/instagram.jpg");
   background-repeat: no-repeat;
   font-size: 5vh;
-  background-size: 4vh;
+  background-size: cover;
   color: whitesmoke;
+  overflow: hidden;
   
 
 }
@@ -243,8 +244,9 @@ height: 10vh;
   background-image: url("../socialmedia/twitter.jpg");
   background-repeat: no-repeat;
   font-size: 5vh;
-  background-size: 4vh;
+  background-size:cover;
   color: whitesmoke;
+  overflow: hidden;
   
 
 }
@@ -256,8 +258,9 @@ height: 10vh;
   background-image: url("../socialmedia/linked in.jpg");
   background-repeat: no-repeat;
   font-size: 5vh;
-  background-size: 4vh;
+  background-size:cover;
   color: whitesmoke;
+  overflow: hidden;
   
 
 }
@@ -269,7 +272,7 @@ height: 10vh;
   background-image: url("../socialmedia/youtube.jpg");
   background-repeat: no-repeat;
   font-size: 5vh;
-  background-size: 4vh;
+  background-size: cover;
   color: whitesmoke;
   
 }
