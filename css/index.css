@@ -66,6 +66,22 @@ body {
 
 
 }
+#maintext {
+
+ display : inline-box;
+ position: fixed;
+ font : tahoma;
+ font-size: 4vh;
+ color:blanchedalmond;
+ top: 45vh;
+ left: 1vw;
+ border: solid 4px;
+ border-radius: 8px;
+ width : 45vw;
+ height: 45vh;
+ background-image:  linear-gradient(dodgerblue, rgb(64,224,208));
+ background-size: cover;
+}
 /*position audio player */ 
 
 .music {
