@@ -82,7 +82,51 @@ body {
   background-size: cover;
   overflow: hidden;
  }
+
+ #youtube {
+  position : fixed;
+  top: 50vh;
+  right: 1vw;
+  height: 27vh;
+  width : 32vw;
+  border: solid 2px;
+  color:blanchedalmond;
+  border-radius: 8px;
+}
+#bottomtext {
+  position : fixed;
+  bottom: 4vh;
+  right: 12.5vw;
+  height: 14vh;
+  width : 38vw;
+  border: solid 2px;
+  padding:2px 2px;
+  font: tahoma;
+  font-size: 2vh;
+  color:blanchedalmond;
+  border-radius: 8px;
+  background-image:  linear-gradient(dodgerblue, rgb(64,224,208));
+ background-size: cover;
+ overflow: hidden;
+}
+#middle {
+  position : fixed;
+  bottom: 22.5vh;
+  right: 34.5vw;
+  height: 26.5vh;
+  width : 16vw;
+  border: solid 2px;
+  padding:2px 2px;
+  font: tahoma;
+  font-size: 2vh;
+  color:blanchedalmond;
+  border-radius: 8px;
+  background-image:  linear-gradient(dodgerblue, rgb(64,224,208));
+ background-size: cover;
+ overflow: hidden;
+}
 /*position audio player */ 
+
 
 .music {
   display: inline-block;
