@@ -130,6 +130,33 @@ li a{
 
 }
 
+.nvidia {
+  width: 7.5vw;
+  height: 10vh;
+  position: fixed;
+  top: 20vh;
+  left : 1vw;
+
+}
+
+.amd {
+  width: 7.5vw;
+  height: 10vh;
+  position: fixed;
+  top: 40vh;
+  left : 1vw;
+
+}
+
+.intel {
+  width: 7.5vw;
+  height: 10vh;
+  position: fixed;
+  top: 30vh;
+  left : 1vw;
+
+}
+
 #middle {
   position : fixed;
   bottom: 22.5vh;
