@@ -114,6 +114,15 @@ height: 5vh;
   background-image: linear-gradient(to top left, rgb(64,224,208),  rgb(30,144,255));
 }	
 
+.logo {
+  width: 7.5vw;
+  height: 10vh;
+  position: fixed;
+  bottom: 7.5vh;
+  right : 13vw;
+  
+
+}
 
 /*position audio player */ 
 

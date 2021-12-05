@@ -95,12 +95,14 @@ body {
   color:blanchedalmond;
   border-radius: 8px;
 }
+
 #bottomtext {
   position : fixed;
+  padding: 2px 2px;
   bottom: 4vh;
-  right: 12.5vw;
+  left: 49vw;
   height: 14vh;
-  width : 38vw;
+  width : 26vw;
   border: solid 2px;
   padding:2px 2px;
   font: tahoma;
@@ -111,6 +113,24 @@ body {
  background-size: cover;
  overflow: hidden;
 }
+
+li a{
+  font: tahoma;
+  font-size: 2vh;
+  color:blanchedalmond;
+  text-decoration: none;
+}
+
+.logo {
+  width: 7.5vw;
+  height: 10vh;
+  position: fixed;
+  bottom: 7.5vh;
+  right : 13vw;
+  
+
+}
+
 #middle {
   position : fixed;
   bottom: 22.5vh;

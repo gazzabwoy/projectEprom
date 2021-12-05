@@ -187,6 +187,16 @@ input[type=reset]:hover {
 	
 }
 
+.logo {
+  width: 7.5vw;
+  height: 10vh;
+  position: fixed;
+  bottom: 7.5vh;
+  right : 13vw;
+  
+
+}
+
 /*position audio player */ 
 
 .music {
