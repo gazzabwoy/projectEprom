@@ -133,7 +133,7 @@ body {
   display: inline-block;
   position: absolute;
   right: 1vw;
-  bottom: 0.5vh;
+  bottom: 7.5vh;
 
 
 }
@@ -193,9 +193,8 @@ height: 10vh;
   text-align: center;
   border-radius: 50%;
   padding: 0vw 0vw;
-  width: 4vw;
+  width: 3vw;
   height: 6vh;
-  background-image: linear-gradient(to bottom right, rgb(64,224,208),  rgb(30,144,255));
   color: white;
   border: solid 1px white;
   align-items: center;
@@ -206,13 +205,13 @@ height: 10vh;
 
 
 #socialmedia a:hover {
-  background-image: linear-gradient(to top , white, blue);
+  background-image: linear-gradient(to top , gold, silver);
+  opacity: 50%;
 }
 
 #facebook {
 
   text-decoration: none;
-  padding: 2px 2px;
   background-image: url("../socialmedia/facebook.jpg");
   font-size: 5vh;
   background-size: cover;
@@ -226,7 +225,6 @@ height: 10vh;
 #instagram {
 
   text-decoration: none;
-  padding: 2px 2px;
   background-image: url("../socialmedia/instagram.jpg");
   background-repeat: no-repeat;
   font-size: 5vh;
@@ -240,7 +238,6 @@ height: 10vh;
 #twitter {
 
   text-decoration: none;
-  padding: 2px 2px;
   background-image: url("../socialmedia/twitter.jpg");
   background-repeat: no-repeat;
   font-size: 5vh;
@@ -254,7 +251,6 @@ height: 10vh;
 #linkedin {
 
   text-decoration: none;
-  padding: 2px 2px;
   background-image: url("../socialmedia/linked in.jpg");
   background-repeat: no-repeat;
   font-size: 5vh;
@@ -268,7 +264,6 @@ height: 10vh;
 #ytube {
 
   text-decoration: none;
-  padding: 2px 2px;
   background-image: url("../socialmedia/youtube.jpg");
   background-repeat: no-repeat;
   font-size: 5vh;
