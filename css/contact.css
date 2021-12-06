@@ -194,23 +194,26 @@ input[type="reset"]:hover {
   height: 10vh;
   position: fixed;
   top: 20vh;
-  left: 1vw;
+  left : 1vw;
+
 }
 
 .amd {
   width: 7.5vw;
   height: 10vh;
   position: fixed;
-  top: 40vh;
-  left: 1vw;
+  top: 30vh;
+  left : 1vw;
+
 }
 
 .intel {
   width: 7.5vw;
   height: 10vh;
   position: fixed;
-  top: 30vh;
-  left: 1vw;
+  top: 40vh;
+  left : 1vw;
+
 }
 
 /*position audio player */
