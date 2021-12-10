@@ -46,6 +46,19 @@ body {
   background-image: linear-gradient(to top left , rgb(30,144,255), blue);
 }
 
+#eventpic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 98vw;
+  height: 70vh;
+  left: 1vw;
+  top: 38vh;
+  border: 2px solid;
+  color: white;
+  border-radius: 8px;
+}
+
 #inform {
 
   display: inline;
