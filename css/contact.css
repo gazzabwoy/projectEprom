@@ -83,7 +83,7 @@ body {
   position: fixed;
   height: 6vh;
   width: 8vw;
-  bottom: 7vh;
+  top: 84vh;
   left: 24vw;
   border-radius: 8px;
 }
@@ -92,7 +92,7 @@ body {
   position: fixed;
   height: 6vh;
   width: 8vw;
-  bottom: 15vh;
+  top: 77vh;
   left: 24vw;
   border-radius: 8px;
 }
@@ -163,15 +163,24 @@ input[type="reset"]:hover {
 
 #intro {
   color: white;
-  font-style: tahoma;
-  font-size: 3vh;
   text-shadow: 2px 2px dodgerblue;
   text-align: center;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(64, 224, 208),
+    rgb(30, 144, 255)
+  );
+  font-family: tahoma;
+  font-size: 1.5vw;
+  color: white;
+  border: 2px solid;
+  border-radius: 8px;
+  overflow:hidden;
 }
+
+
 #eventpic {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+
   width: 98vw;
   height: 70vh;
   left: 1vw;
@@ -180,6 +189,43 @@ input[type="reset"]:hover {
   color: white;
   border-radius: 8px;
 }
+
+#hotelpic {
+ 
+  position: fixed;
+  right: 3vw;
+  top: 50vh;
+  width: 38vw;
+  height: 42vh;
+  border: 2px solid;
+  color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+#bumf {
+
+  position: fixed;
+  top : 50vh;
+  left: 34vw;
+  width: 22vw;
+  height: 42vh;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(64, 224, 208),
+    rgb(30, 144, 255)
+  );
+  font-family: tahoma;
+  font-size: 2vw;
+  color: white;
+  text-shadow: 2px 2px dodgerblue;
+  border: 2px solid;
+  border-radius: 8px;
+  overflow:hidden;
+
+
+}
+
 
 .logo {
   width: 7.5vw;
