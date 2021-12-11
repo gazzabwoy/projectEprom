@@ -277,7 +277,6 @@ input[type="reset"]:hover {
 #audioButton1 {
   background-image: url("../assets/buttons/play.png");
   background-size: cover;
-
   background-repeat: no-repeat;
   border-radius: 50%;
   opacity: 100%;
@@ -287,7 +286,6 @@ input[type="reset"]:hover {
 #audioButton2 {
   background-image: url("../assets/buttons/pause.png");
   background-size: cover;
-
   background-repeat: no-repeat;
   border-radius: 50%;
   opacity: 100%;
