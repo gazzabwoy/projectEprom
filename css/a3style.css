@@ -206,6 +206,7 @@ opacity:100%;
 width: 5vw;
 height: 10vh;	
 }
+
 #footer {
 	
   position: absolute;
@@ -215,10 +216,17 @@ height: 10vh;
   height: 4vh;
   background-image: linear-gradient(dodgerblue, rgb(64,224,208));
   opacity:50%;
-  color: white; 
-  font-size: 2vh;
   overflow: hidden;
   
+}
+
+#foottext { 
+
+  left: 50vw;
+  color: white; 
+  font-size: 2vh;
+  transform: translate(46vw, -1vh);
+
 }
 
 #socialmedia  {
