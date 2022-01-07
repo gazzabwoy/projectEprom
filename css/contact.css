@@ -20,7 +20,7 @@ body {
   width: 100%;
   top: 30vh;
   left: 50vw;
-  transform: translate(-46vw, -2vh);
+  transform: translate(-32.5vw, -2vh);
   overflow: hidden;
 }
 #nav a {
